@@ -1,0 +1,22 @@
+{
+  "name": "projet-qualite-saucedemo-e2e",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "bdd": "cucumber-js --config cucumber.json",
+    "bdd:debug": "cucumber-js --config cucumber.json --publish-quiet",
+    "pw:debug": "playwright test --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.1",
+    "playwright-cucumber": "^1.0.15",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
